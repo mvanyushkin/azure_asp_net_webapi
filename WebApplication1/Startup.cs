@@ -13,7 +13,7 @@ namespace WebApplication1
     {
         public void Configuration(IAppBuilder app)
         {
-            var physicalFileSystem = new PhysicalFileSystem(@".\webapp\dist");
+            var physicalFileSystem = new PhysicalFileSystem(@"");
             var fileServerOptions = new FileServerOptions
             {
                 EnableDefaultFiles = true,
